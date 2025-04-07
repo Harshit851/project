@@ -1,11 +1,11 @@
 
-GUIDED STEPS TO GENERATE GEMINI AI STUDIO AND BIGQUERY API KEY
+# GUIDED STEPS TO GENERATE GEMINI AI STUDIO AND BIGQUERY API KEY
 
 Created by: Harshit Verma
 
 
 
-HOW TO GENERATE A BIGQUERY API KEY
+# HOW TO GENERATE A BIGQUERY API KEY
 
 BigQuery is a fully-managed enterprise data warehouse on GCP. To interact with BigQuery programmatically, you need to enable the BigQuery API and generate credentials, typically using an API key or a service account.
 
@@ -21,16 +21,18 @@ Prerequisites:
 
 
 
-Steps to Generate a BigQuery API Key
+# Steps to Generate a BigQuery API Key
 
 Step 1: Go to Google Cloud Console
 
 •	Open https://console.cloud.google.com/
 
 •	Sign in with your Google account.
+
  
 
 Step 2: Search “BigQuery API” in search box
+
 
 Step 3: Enable the BigQuery API
 
@@ -38,6 +40,7 @@ Step 3: Enable the BigQuery API
    
 2.	Click “Enable” if it's not already enabled for your project.
  
+
 
 Step 4: Create a Service Account (for programmatic access)
 1.	Go to Navigation Menu > IAM & Admin > Service Accounts.
@@ -48,11 +51,13 @@ Step 4: Create a Service Account (for programmatic access)
 6.	BigQuery Admin (or BigQuery Data Viewer for read-only)
 7.	Click “Done”
 
+
 Step 5: Create & Download Service Account Key
 1.	In the service account list, click on your newly created service account.
 2.	Go to the "Keys" tab.
 3.	Click "Add Key" > "Create new key".
 4.	Choose JSON, then click Create.
+
 
  
 json key file will be downloaded. Save it securely.
@@ -61,6 +66,7 @@ Click back to main key menu in service account you can see your active key
 
 Step 6: Test BigQuery API Access (Python Example)
 Use Bash command “pip install google-cloud-bigquery”
+
  
 Step 7: Use the python script to test Bigquery api Access
 Don’t forget to replace the .json file path 
@@ -69,11 +75,11 @@ Don’t forget to replace the .json file path
 
 
 
-HOW TO GENERATE A GEMINI API KEY
+# HOW TO GENERATE A GEMINI API KEY
 This guide walks you through the process of generating an API key for accessing the Gemini API by Google AI. This is useful for integrating Gemini into applications like chatbots, dashboards, and more.
 
  
-Prerequisites:
+# Prerequisites:
 
 •	A Google account
 
@@ -81,7 +87,7 @@ Prerequisites:
 
 •	Internet connection and a modern browser
 
-Step-by-Step Instructions
+# Step-by-Step Instructions
 Step 1: Access Google AI Studio
 1.	Open your preferred web browser.
 2.	Navigate to https://aistudio.google.com/
@@ -100,7 +106,7 @@ Step 2: Create a New API Key
 
 After selecting the project the your API keys will be listed below
  
-Points to remember
+# Points to remember
 
 •	Copy the generated API key.
 
