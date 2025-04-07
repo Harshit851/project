@@ -73,9 +73,12 @@ HOW TO GENERATE A GEMINI API KEY
 This guide walks you through the process of generating an API key for accessing the Gemini API by Google AI. This is useful for integrating Gemini into applications like chatbots, dashboards, and more.
 
  
-Prerequisites
+Prerequisites:
+
 •	A Google account
+
 •	Access to Google AI Studio (https://aistudio.google.com/)
+
 •	Internet connection and a modern browser
 
 Step-by-Step Instructions
@@ -89,15 +92,20 @@ Step 2: Create a New API Key
 1. Click 'Get API Key’ on the top left corner under “Google AI Studio”.
 2. Click “Create API Key” below the code in the blue box 
 3.	A dialog box will appear prompting you to select or create a project:
+   
 •	Choose an existing project from the list.
+
 • click on "Create a new project", enter a Project Name, and confirm by clicking "Create".
 
 
 After selecting the project the your API keys will be listed below
  
 Points to remember
+
 •	Copy the generated API key.
+
 •	Store it securely using environment variables or a secret manager.
+
 •	Never expose your API key in public code or repositories.
 
 Using the API Key in Your Application
